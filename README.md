@@ -116,7 +116,7 @@ python -c "import torch, torchvision, pandas, sklearn, matplotlib; print('All go
 
 ## Step 6 — Add your data
 
-Place your files like this (subfolders are fine, the script searches recursively):
+Create and place your files like this !!! images and labels are NOT TO BE CAPITALIZED IT NEEDS TO BE EXACTLY images and labels !!!:
 
 ```
 data/
@@ -159,6 +159,13 @@ Run This file:
 ```bash
 main.py
 ```
+
+IF you want to change EPOCHS:
+1. Open args.py in VSCode from the file explorer on the left
+2. Find this line:
+parser.add_argument('--epochs', type=int, default=5)
+
+change 5 to however many epochs you want
 
 progress:
 
