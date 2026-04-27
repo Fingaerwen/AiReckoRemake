@@ -160,7 +160,7 @@ Run This file:
 main.py
 ```
 
-progress:
+progress looks like this:
 
 ```
 ==================================================
